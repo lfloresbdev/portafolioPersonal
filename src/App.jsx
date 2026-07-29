@@ -1,14 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
-import { Button } from '@/components/ui/button'
+import { TerminalLogo } from '@/components/ui/terminal-logo'
 
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <Button>Mi Portafolio</Button>
+    <div className="min-h-screen flex items-center justify-center p-4">
+      <TerminalLogo lines={["LEONARDO FLORES", "DEVELOPER"]} speed={120} />
     </div>
   );
 }
