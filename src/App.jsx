@@ -1,10 +1,8 @@
-import { TerminalLogo } from '@/components/ui/terminal-logo'
+import Cabecera from '@/components/layout/Cabecera';
 
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center p-4">
-      <TerminalLogo lines={["LEONARDO FLORES", "DEVELOPER"]} speed={120} />
-    </div>
+    <Cabecera></Cabecera>
   );
 }
 
